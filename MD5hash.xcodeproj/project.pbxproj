@@ -16,6 +16,7 @@
 		921AD5A9163BCB2D00401EE8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 921AD5A8163BCB2D00401EE8 /* Default.png */; };
 		921AD5AB163BCB2D00401EE8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921AD5AA163BCB2D00401EE8 /* Default@2x.png */; };
 		921AD5AD163BCB2D00401EE8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921AD5AC163BCB2D00401EE8 /* Default-568h@2x.png */; };
+		921AD5B5163BCB4900401EE8 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 921AD5B4163BCB4900401EE8 /* NSString+MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		921AD5A8163BCB2D00401EE8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		921AD5AA163BCB2D00401EE8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		921AD5AC163BCB2D00401EE8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		921AD5B3163BCB4900401EE8 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		921AD5B4163BCB4900401EE8 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				921AD5A5163BCB2D00401EE8 /* AppDelegate.h */,
 				921AD5A6163BCB2D00401EE8 /* AppDelegate.m */,
+				921AD5B3163BCB4900401EE8 /* NSString+MD5.h */,
+				921AD5B4163BCB4900401EE8 /* NSString+MD5.m */,
 				921AD59D163BCB2D00401EE8 /* Supporting Files */,
 			);
 			path = MD5hash;
@@ -166,6 +171,7 @@
 			files = (
 				921AD5A3163BCB2D00401EE8 /* main.m in Sources */,
 				921AD5A7163BCB2D00401EE8 /* AppDelegate.m in Sources */,
+				921AD5B5163BCB4900401EE8 /* NSString+MD5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
