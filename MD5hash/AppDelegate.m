@@ -12,6 +12,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSString *myName = @"Michael MacCallum";
+    NSString *hello = [NSString stringWithFormat:@"Hello, my name is %@",[myName MD5]];
+    NSLog(@"%@",hello);
+
+    NSString *deadSimpleExample = [@"ANY TEXT YOU WANT HASHED" MD5];
+    NSLog(@"%@",deadSimpleExample);
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
