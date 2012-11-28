@@ -1,4 +1,4 @@
-NSArray-firstObject
+NSArray-MD5
 ===================
 
 NSString category for MD5 hashing
